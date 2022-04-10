@@ -1,20 +1,28 @@
 .navbar-background {
-    background-color: rgba(0, 0, 0, 0.192);
+    background-color: rgba(0, 0, 0, 0);
+    width: 100% !important;
+    padding-top: 20px;
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
 }
 
 .logo-brand {
-    width:  45px;
+    width: 45px;
     height: 100%;
     border: solid 2px rgb(31, 29, 34);
-    border-radius: 100px;
+    border-radius: 10px;
     transition: all 0.1s ease-in-out;
-  }
-  
-  .logo-brand:hover {
+}
+
+.logo-brand:hover {
     border-color: aliceblue;
-  }
-  
-  .nav-item a {
-    font-size: 20px;
-  }
-  
+}
+
+.nav-item a {
+    font-size: 16.5px;
+    transition: all 0.1s ease-in-out;
+}
+
+.nav-item a:hover {
+    transform: scale(1.1, 1.1);
+}

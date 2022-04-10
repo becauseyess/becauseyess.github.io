@@ -1,0 +1,49 @@
+body {
+    background: linear-gradient(#5269ec, #7242cc, #7e1627);
+    background-size: 100% 100%;
+    top: 0;
+    background-repeat: repeat-x;
+    height: 100%;
+    margin: 0;
+    overflow: auto;
+}
+
+html {
+    height: 100%;
+    overflow: hidden;
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+.glow {
+    -webkit-animation: glow 4s ease-in-out infinite alternate;
+    -moz-animation: glow 4s ease-in-out infinite alternate;
+    animation: glow 4s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        box-shadow: 0 0 50px rgb(128, 100, 180);
+    }
+    to {
+        box-shadow: 0 0 50px rgba(255, 255, 255, 0.555);
+    }
+}
+
+ ::-webkit-scrollbar {
+    width: 9px;
+}
+
+ ::-webkit-scrollbar-track {
+    background: #dfe3eb;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: #555;
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: rgb(95, 95, 95);
+}

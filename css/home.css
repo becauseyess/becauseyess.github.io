@@ -1,11 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
-body {
-	background: linear-gradient(#5269ec, #7242cc, #c92540);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
-	height: 100vh;
-}
-
 .seperator {
   color: white !important;
   margin-top: 5rem;
@@ -22,17 +15,11 @@ body {
   height: 100%;
   border: solid 5px rgba(255, 255, 255, 0.199);
   border-radius: 100px;
+  transition: transform 0.3s ease-in-out;
 }
 
-.glow {
-  -webkit-animation: glow 4s ease-in-out infinite alternate;
-  -moz-animation: glow 4s ease-in-out infinite alternate;
-  animation: glow 4s ease-in-out infinite alternate;
-}
-
-@keyframes glow {
-  from { box-shadow: 0 0 50px rgb(128, 100, 180); }
-  to { box-shadow: 0 0 50px rgba(255, 255, 255, 0.555); }
+.logo-thumbnail:hover {
+  transform: translateY(-5px);
 }
 
 .about-me {
@@ -52,7 +39,7 @@ body {
 }
 
 .card-background {
-  background: linear-gradient(rgb(119, 49, 167), rgb(85, 83, 179), rgb(83, 141, 179)) !important;
+  background: linear-gradient(rgb(119, 49, 167), rgb(85, 83, 179)) !important;
   margin-top: 25px;
   color: white;
   width: 100%;
@@ -82,10 +69,6 @@ body {
   margin-right: 2px !important;
   max-width: 85% !important;
   margin-bottom: 4rem;
-}
-
-.bottom-sep {
-  display:none;
 }
 
 .info-icon {
