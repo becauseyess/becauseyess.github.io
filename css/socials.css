@@ -70,11 +70,7 @@
 }
 
 .social-card {
-<<<<<<< HEAD
     background-color: #5050b7 !important;
-=======
-    background-color: #5050b7 !important
->>>>>>> 4c9d292aade8fd2c8955bc896c1d04a6a91d693e
     width: 100% !important;
     height: 100% !important;
     padding-bottom: 2rem;
@@ -82,11 +78,7 @@
 }
 
 .social-card:hover {
-<<<<<<< HEAD
-    background-color: #5a5ab9 !important;
-=======
-    background-color: #5a5ab9 !important
->>>>>>> 4c9d292aade8fd2c8955bc896c1d04a6a91d693e
+    background-color: #5c5cb8 !important;
     transform: scale(1.1, 1.1);
 }
 
